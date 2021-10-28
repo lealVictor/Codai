@@ -1,0 +1,136 @@
+body {
+    background-color: #f5f5f5;
+}
+
+#text1 {}
+
+#text-2 {
+    display: none
+}
+
+.container-card {
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 2em;
+}
+
+.img-perfil-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    font-family: 'Poppins';
+}
+
+.hr {
+    height: 2px !important;
+    background-color: black !important;
+    width: 30%;
+    margin: auto;
+}
+
+.card-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.card-perfil {
+    background-color: #f09a19 !important;
+    box-shadow: 0px 0px 5px #f5f5f5;
+}
+
+.botoes-card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#btn-sobre {
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin-right: 10px;
+    background-color: black !important;
+    font-weight: 600;
+    color: white !important;
+}
+
+#btn-projeto {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-weight: 600;
+}
+
+.title-text {
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+.title-subtitle {
+    margin: 1em 0;
+}
+
+.text {
+    padding: 5px 17px 0px 50px;
+}
+
+.icons-redes-sociais {
+    text-align: center;
+    padding: 10px;
+}
+
+.links-redes-sociais {
+    text-decoration: none;
+}
+
+.links-redes-sociais i {
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#footer-elements {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-elements .email {
+    padding: 15px 0px 15px 0px;
+}
+
+@media (min-width: 900px) {
+    .container-linear {
+        background: linear-gradient(to left, #f5f5f5 60%, #f09a19 40%);
+    }
+    .card-col {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        background-color: white !important;
+        box-shadow: -10px 5px 10px 0px #292A2D
+    }
+    .card-perfil {
+        background-color: white !important;
+        color: #292A2D;
+        box-shadow: none !important;
+        width: 25em;
+        border: none !important;
+    }
+    .btn-card {
+        color: black !important;
+    }
+    .text-body {
+        box-shadow: none;
+    }
+    .text {
+        max-width: 430px;
+        vertical-align: middle;
+        margin-top: 2em;
+    }
+    #footer-elements {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
